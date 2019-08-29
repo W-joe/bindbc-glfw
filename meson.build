@@ -43,7 +43,7 @@ source_files = [
 
 
 ## Target
-target_lib = static_library(
+target_lib = library(
 	project_target,
 	sources: source_files,
 	include_directories: import_dir,
